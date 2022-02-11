@@ -1,0 +1,27 @@
+@media (min-width: 420px) {
+  .screenshots-title {
+    font-size: 32px;
+  }
+  .screenshots-list-item  {
+    width: 80%;
+  }
+}
+
+@media (min-width: 620px) {
+  .screenshots-title {
+    font-size: 32px;
+  }
+  .screenshots-list-item  {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .screenshots-title {
+    font-size: 32px;
+  }
+  .screenshots-list-item  {
+    width: 20%;
+  }
+}
+

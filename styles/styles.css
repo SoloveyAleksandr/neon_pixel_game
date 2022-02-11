@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Squada One", cursive;
+  color: #e1c6ed;
+  background-color: #080007;
+}
+
+.main-screen {
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px #4E0038;
+}
+
+.main-screen__img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.screenshots-title {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  text-shadow: 0 0 10px #E3A9FF;
+}
+
+.screenshots-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.screenshots-list-item {
+  box-shadow: 0 0 20px #4E0038;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 50px 15px;
+}
+
+.screenshots-list-item__img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080007;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #ffffff;
+}
+
+.link a {
+  text-decoration: none;
+  display: block;
+  width: 80px;
+  outline: none;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
